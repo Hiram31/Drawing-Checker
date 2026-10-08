@@ -1,0 +1,12 @@
+python-dotenv
+pillow
+numpy
+torch
+transformers
+openai
+ultralytics
+opencv-python
+pdf2image
+pandas
+matplotlib
+tensorboard

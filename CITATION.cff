@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use Drawing-Checker, please cite the published paper below."
+type: software
+title: Drawing-Checker
+authors:
+  - family-names: Zhou
+    given-names: Jiwei
+  - family-names: Camba
+    given-names: Jorge D.
+  - family-names: Company
+    given-names: Pedro
+  - family-names: Contero
+    given-names: Manuel
+preferred-citation:
+  type: article
+  title: "Drawing-Checker: A Vision RAG Framework for Automated Comparison of Engineering Drawings"
+  authors:
+    - family-names: Zhou
+      given-names: Jiwei
+    - family-names: Camba
+      given-names: Jorge D.
+    - family-names: Company
+      given-names: Pedro
+    - family-names: Contero
+      given-names: Manuel
+  journal: Procedia CIRP
+  volume: "142"
+  start: "127"
+  end: "132"
+  year: 2026
+  doi: 10.1016/j.procir.2026.05.235
+  url: https://www.sciencedirect.com/science/article/pii/S2212827126008085

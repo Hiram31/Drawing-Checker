@@ -1,0 +1,63 @@
+# -----------------------------
+# OS / editor
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -----------------------------
+# Python / virtual env
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# -----------------------------
+# Local secrets / env
+# -----------------------------
+.env
+.env.*
+!.env.example
+
+# -----------------------------
+# Logs and runtime outputs
+# -----------------------------
+*.log
+outputs/
+without_segmentation_outputs/
+predictions/
+
+# -----------------------------
+# Large data and generated assets
+# -----------------------------
+data/
+images/ref_images/*
+images/target_images/*
+gold_standards/*
+model/runs/
+!images/ref_images/base_ref.png
+!images/target_images/base_target.png
+
+# -----------------------------
+# Model artifacts
+# -----------------------------
+*.pt
+*.onnx
+*.engine
+!model/weights/drawing_checker.pt
+
+# -----------------------------
+# Archived experiments (not used by main pipeline)
+# -----------------------------
+_archival/
+pipeline/_archival/
