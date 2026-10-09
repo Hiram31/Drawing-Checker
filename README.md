@@ -209,7 +209,7 @@ This is a research prototype intended to assist human review. Missed or incomple
 
 ## Citation
 
-Please cite the published paper when using this work:
+If you use Drawing-Checker, adapt its code, or build on the workflow described in our paper, please cite Zhou et al. (2026), DOI: 10.1016/j.procir.2026.05.235.
 
 ```bibtex
 @article{zhou2026drawingchecker,
